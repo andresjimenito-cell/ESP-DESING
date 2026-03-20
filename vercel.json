@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install",
+  "buildCommand": "cd app_unified && npm run build",
+  "outputDirectory": "app_unified/dist",
+  "installCommand": "cd app_unified && npm install",
   "framework": "vite"
 }
